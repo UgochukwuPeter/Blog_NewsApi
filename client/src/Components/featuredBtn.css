@@ -1,0 +1,14 @@
+.fe-btn{
+    background:rgb(210, 209, 209);
+    color: #274cf1;
+    padding:.2rem  1.5rem;
+    border-radius: 1.5rem;
+    text-transform: uppercase;
+    font-weight: 600;
+    width:30%;
+}
+@media(max-width:600px){
+    .fe-btn{
+        width:fit-content;
+    }
+}

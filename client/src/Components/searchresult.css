@@ -1,0 +1,28 @@
+.search-heading{
+    text-align: center;
+    margin: 1rem auto;
+}
+.search-result-wrapper{
+    width: 70%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+.search-result{
+    width:30%;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+.search-result >img{
+    width: 100%;
+
+}
+@media(max-width:600px){
+    .search-result-wrapper{
+        width:80%;
+    }
+    .search-result{
+        width:45%;
+        overflow: hidden;
+    }
+}

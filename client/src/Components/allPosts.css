@@ -1,0 +1,10 @@
+.allPost-container{
+    display:flex;
+    flex-wrap:wrap;
+    gap:.5rem;
+}
+@media(max-width:600px){
+    .allPost-container{
+        flex-direction: column;
+    }
+}

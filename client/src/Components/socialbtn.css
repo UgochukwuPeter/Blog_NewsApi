@@ -1,0 +1,26 @@
+.social-btn{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top:1.5rem;
+}
+.read-more{
+    font-weight: 600;
+    border-bottom: .2rem solid blue;
+    text-decoration: none;
+    color: inherit;
+}
+.social-icons{
+    display: flex;
+    gap:1rem;
+    align-items: center;
+}
+.social-icons >button{
+    outline:none;
+    border:none;
+    background:inherit;
+    color: inherit;
+}
+.social-icons >a{
+    color: inherit;
+}

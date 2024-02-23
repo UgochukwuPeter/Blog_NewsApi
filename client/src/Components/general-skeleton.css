@@ -1,0 +1,11 @@
+.general-skeleton{
+    display:flex;
+    flex-direction: column;
+    flex:1;
+    height:25rem;
+}
+@media(max-width:600px){
+   .general-skeleton{
+    width:100%;
+   }
+}
