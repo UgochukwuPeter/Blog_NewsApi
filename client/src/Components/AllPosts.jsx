@@ -15,7 +15,7 @@ const AllPosts = () => {
   useEffect(() => {
     const fetchPosts = async () => {
       try {
-        const response = await axios.get('http://localhost:5000/news');
+        const response = await axios.get('https://blog-newsapi.onrender.com/news');
         setContent(response.data);
         setIsLoading(false);
       } catch (error) {

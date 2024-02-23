@@ -14,7 +14,7 @@ const Featured = () => {
   useEffect(() => {
     const fetchPosts = async () => {
       try {
-        const response = await axios.get('http://localhost:5000/tech');
+        const response = await axios.get('https://blog-newsapi.onrender.com/tech');
         setContent(response.data);
         setIsLoading(false);
       } catch (error) {

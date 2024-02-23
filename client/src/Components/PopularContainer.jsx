@@ -14,7 +14,7 @@ const PopularContainer = () => {
   useEffect(() => {
     const fetchPosts = async () => {
       try {
-        const response = await axios.get('http://localhost:5000/popular');
+        const response = await axios.get('https://blog-newsapi.onrender.com/popular');
         setContent(response.data);
         setIsLoading(false);
       } catch (error) {
